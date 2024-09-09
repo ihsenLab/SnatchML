@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+results/*
+train_log/*
+./checkpoint.pt
+./datasets/*
