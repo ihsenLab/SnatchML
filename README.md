@@ -1,5 +1,12 @@
 ## Overview
-This repository contains the official implementation for the paper "Model for Peanuts: Hijacking ML models without Training Access is Possible." In this paper, we explore the threat of model hijacking in machine learning (ML) models, where an adversary aims to repurpose a victim model to perform a different task than its original one, without access to the model's training phase.
+This repository contains the official implementation for the SaTML'2025 paper "SnatchML: Hijacking ML Models Without Training Access". In this paper, we explore the threat of model hijacking in machine learning (ML) models, where an adversary aims to repurpose a victim model to perform a different task than its original one, without access to the model's training phase.
+
+@inproceedings{ghorbel2024snatchml,
+  title={SnatchML: Hijacking ML Models Without Training Access},
+  author={Ghorbel, Mahmoud and Bouzidi, Halima and Bilasco, Ioan Marius and Alouani, Ihsen},
+  booktitle={IEEE Conference on Secure and Trustworthy Machine Learning (SaTML): Proceedings},
+  year={2024}
+}
 
 ## Features
 - Implementation of SnatchML algorithm
@@ -74,3 +81,5 @@ $ python unlearn_pneu.py --setting [black|white] --model [architecture] --alpha 
 ```shell
 $ python unlearn_er.py --setting white --model mobilenet --hijack-dataset olivetti --alpha [0, 1] --beta [0, 1]
 ```
+
+
